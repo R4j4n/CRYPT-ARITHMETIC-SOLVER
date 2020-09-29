@@ -64,7 +64,11 @@ def main():
                 solve2(x)
         else:
             st.warning("PLEASE INPUT VALID CHARACTER")
-
+    
+    badge = '[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)'
+    st.sidebar.markdown(badge, unsafe_allow_html=True)
+    visitors = '![visitors](https://visitor-badge.glitch.me/badge?page_id=page.https://cryptarithmetic.herokuapp.com/)'
+    st.sidebar.markdown(visitors, unsafe_allow_html=True)
     st.sidebar.title("FIND ME 👇👇")
     link = '[HERE 😎](https://r4j4n.github.io/)'
     st.sidebar.markdown(link, unsafe_allow_html=True)
