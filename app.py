@@ -65,10 +65,10 @@ def main():
         else:
             st.warning("PLEASE INPUT VALID CHARACTER")
 
-    url = 'https://r4j4n.github.io/'
     st.sidebar.title("FIND ME 👇👇")
-    if st.sidebar.button('HERE 😎'):
-        webbrowser.open_new_tab(url)
+    link = '[HERE 😎](https://r4j4n.github.io/)'
+    st.sidebar.markdown(link, unsafe_allow_html=True)
+
         
 if __name__ == "__main__":
     main()
